@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7613b4a2-a52b-4452-9a56-f0f61ef785d6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Script/TrialTest.py" afterPath="$PROJECT_DIR$/Script/TrialTest.py" />
       <change beforePath="$PROJECT_DIR$/runUnittestShell.sh" afterPath="$PROJECT_DIR$/runUnittestShell.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +16,11 @@
   <component name="ExportTestResults" exportFormat="Xml" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TrialTest.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TrialTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Script/TrialTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="83" lean-forward="false" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="83" />
+            <state relative-caret-position="450">
+              <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -26,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runUnittestShell.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="runUnittestShell.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runUnittestShell.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,15 +104,15 @@
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/LinkedIn/Script/TrialTest.py" />
         <option value="$PROJECT_DIR$/Pages/HomePage.py" />
-        <option value="$PROJECT_DIR$/Script/TrialTest.py" />
         <option value="$PROJECT_DIR$/debug.log" />
         <option value="$PROJECT_DIR$/runUnittestShell.sh" />
+        <option value="$PROJECT_DIR$/Script/TrialTest.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1963" />
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="88" />
+    <option name="y" value="16" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -483,7 +485,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="88" y="16" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -593,21 +595,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script/TrialTest.py">
+    <entry file="file://$PROJECT_DIR$/runUnittestShell.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="83" lean-forward="false" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runUnittestShell.sh">
+    <entry file="file://$PROJECT_DIR$/Script/TrialTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="450">
+          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

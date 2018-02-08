@@ -39,6 +39,6 @@ class TrialTest(unittest.TestCase):
         homepage.click_jobs()
         homepage.enter_search("software testing")
 
+
 if __name__ == '__main__':
     unittest.main(testRunner=xmlrunner.XMLTestRunner(output="./python_unittests_xml"))
-
