@@ -43,9 +43,12 @@ class Environment(object):
         return self.driver
 
     def chrome_browser(self):
+        print ("Trying to Fetch the chrome driver")
         home = os.path.expanduser("~")
         driver_path = home + "\\AppData\\Local\Programs\\Python\\Python35\\Scripts\\"
-        self.driver = webdriver.Chrome(driver_path+"//chromedriver.exe")
+        print ("get and set driver path")
+        self.driver = webdriver.Chrome(driver_path+"chromedriver.exe")
+        print ("Triggered Chrome driver")
         self.option = Options()
         self.option.add_argument("'disable-infobars'")
         self.set_browser_windows_size()

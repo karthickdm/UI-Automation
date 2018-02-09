@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7613b4a2-a52b-4452-9a56-f0f61ef785d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Environment/Environment.py" afterPath="$PROJECT_DIR$/Environment/Environment.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,11 @@
   <component name="ExportTestResults" exportFormat="Xml" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TrialTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TrialTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Script/TrialTest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="263">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -69,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Environment.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Environment.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Environment/Environment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+            <state relative-caret-position="342">
+              <caret line="59" column="39" lean-forward="true" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -235,6 +234,24 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration name="Environment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Environment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UI-Automation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Environment/Environment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -435,16 +452,18 @@
       <option name="_new_target" value="&quot;TrialTest.TrialTest.test_epam&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for Script.TrialTest.TrialTest" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for TrialTest.TrialTest" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for TrialTest.TrialTest.test_epam" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Environment" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for TrialTest.TrialTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for TrialTest.TrialTest.test_epam" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for Script.TrialTest.TrialTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Environment" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for TrialTest.TrialTest.test_epam" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for Script.TrialTest.TrialTest" />
       </list>
     </recent_temporary>
   </component>
@@ -465,9 +484,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_TrialTest_TrialTest - 2018.02.08 at 16h 19m 19s.xml">
-      <configuration name="Unittests for TrialTest.TrialTest" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_TrialTest_TrialTest - 2018.02.08 at 16h 23m 05s.xml">
       <configuration name="Unittests for TrialTest.TrialTest" configurationId="tests" />
     </history-entry>
@@ -490,6 +506,9 @@
       <configuration name="Unittests for TrialTest.TrialTest" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_TrialTest_TrialTest - 2018.02.09 at 12h 47m 42s.xml">
+      <configuration name="Unittests for TrialTest.TrialTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TrialTest_TrialTest - 2018.02.09 at 14h 37m 10s.xml">
       <configuration name="Unittests for TrialTest.TrialTest" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_TrialTest_TrialTest_test_epam - 2018.02.08 at 16h 51m 48s.xml">
@@ -641,6 +660,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Script/TrialTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/BasePage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -659,30 +698,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Environment/Environment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="342">
+          <caret line="59" column="39" lean-forward="true" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/TrialTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
