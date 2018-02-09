@@ -41,4 +41,7 @@ class TrialTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(testRunner=xmlrunner.XMLTestRunner(output="./python_unittests_xml"))
+    with open('TestReport/results.xml', 'wb') as output:
+        unittest.main(
+            testRunner=xmlrunner.XMLTestRunner(output=output),
+            failfast=False, buffer=False, catchbreak=False)
