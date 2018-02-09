@@ -38,12 +38,14 @@ class Environment(object):
             self.chrome_browser()
         elif self.browser == "IE":
             logging.info("Trying to locate the IE driver")
-            self.driver = webdriver.Chrome("C://Users//Karthick_Dhakshinamo//tt//drivers//chromedriver.exe")
+            self.driver = webdriver.Chrome("$HOME//AppData//Local//Programs//Python//Python35//Scripts//chromedriver.exe")
             logging.info("Instanciate IE Driver")
         return self.driver
 
     def chrome_browser(self):
-        self.driver = webdriver.Chrome("C://Users//Karthick_Dhakshinamo//tt//drivers//chromedriver.exe")
+        home = os.path.expanduser("~")
+        driver_path = home + "\\AppData\\Local\Programs\\Python\\Python35\\Scripts\\"
+        self.driver = webdriver.Chrome(driver_path+"//chromedriver.exe")
         self.option = Options()
         self.option.add_argument("'disable-infobars'")
         self.set_browser_windows_size()
