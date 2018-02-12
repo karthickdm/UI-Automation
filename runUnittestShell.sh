@@ -4,5 +4,5 @@
 #echo "$f"
 #cd $HOME/HKEX/workspace/UI/UI-Automation
 #python -m unittest Script/ExecuteTest.py
-python -m xmlrunner Script/TrialTest.py
+python -m  unittest Script/TestSuite.py
 #done

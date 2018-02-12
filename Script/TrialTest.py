@@ -1,5 +1,4 @@
 import unittest
-import xmlrunner
 from Environment.Environment import Environment
 from Pages import LoginPage, HomePage
 
@@ -40,8 +39,14 @@ class TrialTest(unittest.TestCase):
         homepage.enter_search("software testing")
 
 
+"""output
 if __name__ == '__main__':
     with open('TestReport/results.xml', 'wb') as output:
         unittest.main(
             testRunner=xmlrunner.XMLTestRunner(output=output),
             failfast=False, buffer=False, catchbreak=False)
+
+if  __name__ == '__main__':
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='example_dir'))
+"""
+
